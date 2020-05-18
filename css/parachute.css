@@ -1,0 +1,53 @@
+div.man img{
+    width: 200px
+}
+div.man {
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+    width: 200px;
+    height:200px;
+    align-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    -webkit-animation: rotate 10s infinite linear;
+    
+   
+}
+@keyframes rotate {
+  0% {
+    transform: translate(0, 0) rotate(0deg)
+  }
+  25% {
+    transform: translate(300px, 250px) rotate(-40deg)
+  }
+  50% {
+    transform: translate(300px, -50px) rotate(0deg)
+  }
+  75% {
+    transform: translate(0, -50px) rotate(40deg)
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg)
+  }
+}
+
+/*
+@-webkit-keyframes rotation { 
+    -webkit-animation: rotation 5s infinite linear;
+		from {
+				-webkit-transform: rotate(-20deg);
+		}
+		to {
+				-webkit-transform: rotate(360deg);
+		}
+}
+*/
+.bg img{
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+    
+    
+    
+}
