@@ -3,34 +3,32 @@ body{
 }
 
 .r1{
-    height: 300px;
+    height: 100px;
     position: absolute;
     top: 550px;
-    left: 400px;
+    left: 20%;
     transform: rotateZ(45deg);
 }
 
 .cody{
-    height: 250px;
+    height: 100px;
     position: absolute;
-    top: 500px;
+    top: 480px;
     left: -15%;
 }
 
 .conv1, .conv3{
     position: absolute;
-    height: 100px;
-    width: 200px;
+    height: 75px;
     top: 450px;
-    left: 480px;
+    left: 25%;
     opacity: 0;
 }
 
 .conv2, .conv4{
     position: absolute;
-    height: 100px;
-    width: 200px;
-    top: 540px;
-    left: 760px;
+    height: 75px;
+    top: 510px;
+    left: 40%;
     opacity: 0;
 }

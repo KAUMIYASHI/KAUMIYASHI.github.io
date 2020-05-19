@@ -50,6 +50,7 @@ body{
     }
     100%{
         left: 25%;
+        top: 550px;
         opacity: 0;
     }
 }
