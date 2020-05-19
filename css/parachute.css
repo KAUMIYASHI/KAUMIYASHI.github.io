@@ -34,17 +34,7 @@ div.man {
   }
 }
 
-/*
-@-webkit-keyframes rotation { 
-    -webkit-animation: rotation 5s infinite linear;
-		from {
-				-webkit-transform: rotate(-20deg);
-		}
-		to {
-				-webkit-transform: rotate(360deg);
-		}
-}
-*/
+
 .bg img{
     width: 1200px;
     margin: 0 auto;
