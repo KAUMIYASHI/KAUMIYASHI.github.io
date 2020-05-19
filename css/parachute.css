@@ -1,5 +1,6 @@
 div.man img{
-    width: 200px
+    width: 200px;
+    
 }
 div.man {
       position: -webkit-sticky; /* Safari */
@@ -11,6 +12,7 @@ div.man {
     margin: 0 auto;
     margin-top: 50px;
     -webkit-animation: rotate 10s infinite linear;
+    z-index: 1;
     
    
 }
@@ -47,7 +49,34 @@ div.man {
     width: 1200px;
     margin: 0 auto;
     display: block;
+    -webkit-animation: rotateBg 8s infinite linear;
+    z-index: 2;
     
     
     
+}
+@keyframes rotateBg {
+  0% {
+    transform: translate(0, -200)
+  }
+  50% {
+    transform: translate(0, -1000px)
+  }
+    75% {
+    transform: translate(0, -500px)
+  }
+     100% {
+    transform: translate(0, -200)
+  }
+/*
+  50% {
+    transform: translate(0px, -500px)
+  }
+  75% {
+    transform: translate(0, 500px)
+  }
+  100% {
+    transform: translate(0, -500px)
+  }
+*/
 }
