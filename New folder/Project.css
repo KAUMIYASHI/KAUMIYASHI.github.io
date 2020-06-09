@@ -1,0 +1,34 @@
+body{
+    background: url('/images/galaxy.png') rgb(22,26,70) repeat-x;
+}
+
+.r1{
+    height: 100px;
+    position: absolute;
+    top: 550px;
+    left: 20%;
+    transform: rotateZ(45deg);
+}
+
+.cody{
+    height: 100px;
+    position: absolute;
+    top: 480px;
+    left: -15%;
+}
+
+.conv1, .conv3{
+    position: absolute;
+    height: 75px;
+    top: 450px;
+    left: 25%;
+    opacity: 0;
+}
+
+.conv2, .conv4{
+    position: absolute;
+    height: 75px;
+    top: 510px;
+    left: 40%;
+    opacity: 0;
+}
